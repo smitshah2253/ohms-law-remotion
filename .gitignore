@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Remotion & Build Outputs
+out/
+build/
+dist/
+.remotion/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Local Settings
+.env
+*.env.local
+.DS_Store
+Thumbs.db

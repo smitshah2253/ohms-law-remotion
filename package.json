@@ -1,0 +1,25 @@
+{
+  "name": "ohms-law-explainer",
+  "version": "1.0.0",
+  "description": "2D explainer on Ohm's law for robot field technicians",
+  "scripts": {
+    "dev": "remotion preview src/index.ts",
+    "build": "remotion render src/index.ts OhmsLawExplainer out/ohms-law.mp4",
+    "check-state": "tsx src/checkState.ts",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/google-fonts": "^4.0.260",
+    "@remotion/paths": "^4.0.536",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.260"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.260",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.4.5"
+  }
+}
